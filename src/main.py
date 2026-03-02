@@ -19,7 +19,7 @@ def main():
             voting.tambah_kandidat(nama)
 
         elif pilihan == "2":
-            voting.tampilkan_statistik()
+            voting.tampilkan_kandidat()
             nomor = int(input("Pilih nomor kandidat: "))
             voting.vote(nomor)
 

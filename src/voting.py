@@ -14,6 +14,16 @@ class Voting:
         else:
             print("Nomor kandidat tidak valid.")
 
+    # 👇 TAMBAHKAN DI SINI
+    def tampilkan_kandidat(self):
+        if not self.daftar_kandidat:
+            print("Belum ada kandidat.")
+            return
+
+        print("\nDaftar Kandidat:")
+        for i, kandidat in enumerate(self.daftar_kandidat):
+            print(f"{i}. {kandidat.nama}")
+
     def hitung_total_suara(self):
         return sum(k.jumlah_suara for k in self.daftar_kandidat)
 
