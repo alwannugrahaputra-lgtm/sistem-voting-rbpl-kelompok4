@@ -1,0 +1,11 @@
+8e73bad Menambahkan unit test untuk fitur Voting
+5b42f35 Menambahkan fitur tampilkan_kandidat dan perbaikan indentasi
+2655210 Update README lengkap
+eaa20b4 Menambahkan folder docs untuk dokumentasi
+195945f Final sistem voting lengkap dengan statistik dan penyimpanan
+dc907f3 Menambahkan fitur statistik dan persentase suara
+adfccb5 Menambahkan class Voting dan fitur vote
+8767146 Menambahkan struktur class Kandidat
+7c97bcf Update kandidat.py
+0d3a6a7 Setup struktur awal project
+abda4b0 Initial commit

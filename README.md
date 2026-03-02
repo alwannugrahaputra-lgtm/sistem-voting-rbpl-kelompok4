@@ -27,3 +27,6 @@ Project ini dibuat untuk praktikum Git mata kuliah RBPL.
 - development → penggabungan fitur
 - fitur-core-system → fitur dasar
 - fitur-statistik → fitur statistik
+
+## Kontributor
+- Farid Mutaqin (Dokumentasi)
