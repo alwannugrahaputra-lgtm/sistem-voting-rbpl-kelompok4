@@ -7,6 +7,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 's
 
 from voting import Voting
 
+
 class TestVoting(unittest.TestCase):
 
     def setUp(self):
@@ -31,6 +32,11 @@ class TestVoting(unittest.TestCase):
         self.voting.vote(0)
         pemenang = self.voting.tentukan_pemenang()
         self.assertEqual(pemenang.nama, "Andi")
+
+    def test_vote_invalid(self):
+        self.voting.vote(10)
+        self.assertEqual(self.voting.hitung_total_suara(), 0)
+
 
 if __name__ == "__main__":
     unittest.main()
