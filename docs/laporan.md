@@ -11,8 +11,8 @@ Repository ini dibuat untuk memenuhi tugas praktikum Git pada mata kuliah RBPL.
 - Unit test
 
 ## Branch yang Digunakan
-- fitur-core-system (Alwan)
-- fitur-statistik (Alwan)
+- fitur-core-system-alwan
+- fitur-statistik-alwan
 - fitur-dokumentasi-farid
 - fitur-validasi-adinda
 - fitur-unit-test-syahlaa
